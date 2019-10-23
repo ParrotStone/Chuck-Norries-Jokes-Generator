@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="main.css">
+        <title>Chuck Norris Jokes Generator</title>
+    </head>
+
+    <body>
+
+
+        <div class="container xl mx-auto mt-5">
+            <h1 class="text-blue-600 text-4xl text-center mb-5">Chuck Norris Jokes Generator</h1>
+            <form class="flex w-1/2 mx-auto flex-wrap">
+                <input
+                    class="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
+                    id="jokes-num" type="number" placeholder="Number of jokes">
+                <button id="get-jokes" type="submit"
+                    class="bg-green-500 hover:bg-green-700 text-white py-2 px-2 rounded mt-5 w-1/2 mx-auto">Get
+                    Customer</button>
+            </form>
+            <div id="jokes-output"></div>
+        </div>
+
+
+
+        <script src="main.js"></script>
+    </body>
+
+</html>
